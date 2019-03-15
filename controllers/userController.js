@@ -1,4 +1,4 @@
-const User = require('../model/user');
+
 
 class Users {
     constructor(){
@@ -7,8 +7,8 @@ class Users {
 
      all_users(req,res){
         res.json({
-            yes:no,
-            no:yes
+            yes:"no",
+            no:"yes"
         });
     }
 
