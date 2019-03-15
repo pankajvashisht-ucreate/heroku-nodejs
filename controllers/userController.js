@@ -7,7 +7,7 @@ class Users {
 
      all_users(req,res){
         res.json({
-            yes:Node,
+            yes:no,
             no:yes
         });
     }
