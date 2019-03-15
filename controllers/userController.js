@@ -6,9 +6,10 @@ class Users {
     }
 
      all_users(req,res){
-        User.findAll( {attributes: ['id', 'username', 'email','password']}).then(users => {
-            res.json(users);
-          })
+        res.json({
+            yes:Node,
+            no:yes
+        });
     }
 
 }
